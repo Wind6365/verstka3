@@ -1,0 +1,198 @@
+div {
+   background-color: white;
+   border: solid 1px white;
+   border-radius: 10px;
+}
+.img {
+   float: left;
+   height: 50px;   
+   border: solid 5px white;
+}
+.ss{
+   margin-left:-12%;
+}
+h1 {
+   margin-bottom:0;
+}
+.t{
+   position:relative;
+}
+.no{
+   display: none;
+   list-style-type:none;
+}
+.t:hover .no{
+   display:list-item;
+   position:absolute;
+   top:100%;  
+   background-color:white;
+   border:solid 2px black;
+   border-radius:10%;
+   padding:1%;
+   left:0;
+}
+li{
+   list-style-type:none;  
+}
+.inline{
+   display:inline;
+}
+a{
+   display:inline;
+}
+.hrefs {
+   padding-left:28%;
+}
+.text {
+   text-indent:5%;
+   padding-left:1%;
+   text-align:justify;  
+}
+.texte{
+   height:500px;
+}
+.tech {
+   padding-left: 35%;
+}
+body {
+   background-color:gray;
+   margin-top: 0;
+   margin-left: 10%;
+   margin-right: 10%; 
+}
+.dop {
+   float: right;
+   width: 35%;
+   margin: 1%;
+   background-color: silver;
+}
+.abz {
+   border: none;
+   background-color: silver;
+   text-indent: 5%;
+   padding: 2%;
+}
+.bcc{
+  
+   text-indent:5%;
+}
+.h3 {
+   padding-left: 2%;
+   margin:0;
+}
+.obp2 {
+   text-indent: 5%;
+}
+.main {
+   border-radius: 15px;
+   padding-left: 12%;
+   text-align: left;
+}
+.foot {
+   float: none;
+   padding-left: 40%;
+}
+td{
+   height:50px;
+   width:50px;
+}
+
+th{
+   height:50px;
+   width:50px;
+}
+.input{
+   height:100%;
+   width:100%;
+}
+.calc{
+   padding-left:33%;
+}
+.test{
+   border:solid 2px black;
+   width:18%;
+   float:left;
+   text-align:justify;
+}
+.result{
+   padding-left:35%;
+   float:none;
+   width:18%;
+   margin-top:15%;
+}
+.height{
+  height:250px; 
+  margin-left:6%;
+}
+      @media(max-width: 992px){
+         body{
+            width:100%;
+            height:100%;
+            margin:0;
+            padding:0;
+         }
+         .test{
+            float:none;
+            height:100%;
+            width:100%;
+            margin-bottom:1%;
+           
+         }
+         .height{
+            height:100%;
+            margin-right:2%;
+         }
+        td{
+         height:40px;
+         width:40px;
+      }
+
+         th{
+            height:40px;
+            width:40px;
+         }
+         .input{
+            height:100%;
+            width:100%;
+         }
+         .calc{
+            padding-left:10%;
+            padding-right:10%
+            
+         } 
+         .hrefs{
+            text-indent:5%;
+            padding-left:15%;
+         }
+         .texte{
+            text-indent:3%;
+            padding-left:15%;
+         }
+         .dop{
+            float:none;
+            width:100%;
+            padding-left:0;
+            border:none;      
+         }
+         .ss{
+            position:fixed;
+            bottom:9px;
+            left:0;
+            border:solid 2px orange;
+            border-radius:0;
+            padding-top:1%;
+            padding-bottom:0;
+            padding-right:2%;
+            padding-left:4%;
+            height:3%;
+            width:21%;
+            margin-left:0;
+            background-color:white;
+         }
+         h3{
+            margin:0;
+         }
+         h1{
+            padding-left:3%;
+         }
+      }
